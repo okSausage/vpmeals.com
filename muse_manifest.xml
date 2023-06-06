@@ -1,0 +1,693 @@
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="vpmealsri.com" resolutions="1x" timestamp="1685661334348">
+  <folder name="css">
+    <file name="site_global.css" crc="478123960"/>
+    <file name="master_a-master.css" crc="4008905037" ref="index:how-to-order:contact:testimonials:price-list:menu:photos"/>
+    <file name="index.css" crc="210004502" ref="index"/>
+    <file name="how-to-order.css" crc="207749875" ref="how-to-order"/>
+    <file name="contact.css" crc="3893139810" ref="contact"/>
+    <file name="testimonials.css" crc="3875964754" ref="testimonials"/>
+    <file name="price-list.css" crc="10368304" ref="price-list"/>
+    <file name="menu.css" crc="4212098265" ref="menu"/>
+    <file name="photos.css" crc="4043540029" ref="photos"/>
+  </folder>
+  <folder name="fonts">
+    <file name="fontawesome-webfont.woff" crc="462672289"/>
+    <file name="fontawesome-webfont.eot" crc="415170694"/>
+    <file name="fontawesome-webfont.svg" crc="3771442179"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:phone>how-to-order:phone>menu:phone>price-list:phone>photos:phone>testimonials:phone>contact:phone>suggestions:index:menu:how-to-order:testimonials:contact:photos:price-list"/>
+    <file name="museutils.js" crc="3939489907" ref="phone>index:phone>how-to-order:phone>menu:phone>price-list:phone>photos:phone>testimonials:phone>contact:phone>suggestions:index:menu:how-to-order:testimonials:contact:photos:price-list"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>index:phone>how-to-order:phone>menu:phone>price-list:phone>photos:phone>testimonials:phone>contact:phone>suggestions:index:menu:how-to-order:testimonials:contact:photos:price-list"/>
+    <file name="museconfig.js" crc="3936894949" ref="phone>index:phone>how-to-order:phone>menu:phone>price-list:phone>photos:phone>testimonials:phone>contact:phone>suggestions:index:menu:how-to-order:testimonials:contact:photos:price-list"/>
+    <file name="jquery.watch.js" crc="522499760" ref="phone>index:phone>how-to-order:phone>menu:phone>price-list:phone>photos:phone>testimonials:phone>contact:phone>suggestions:index:menu:how-to-order:testimonials:contact:photos:price-list"/>
+    <file name="jquery.musemenu.js" crc="4139692962" ref="phone>index:phone>how-to-order:phone>menu:phone>price-list:phone>photos:phone>testimonials:phone>contact:phone>suggestions:index:menu:how-to-order:testimonials:contact:photos:price-list"/>
+    <file name="webpro.js" crc="3856315280" ref="phone>index:phone>how-to-order:phone>menu:phone>price-list:phone>photos:phone>testimonials:phone>contact:phone>suggestions:contact:photos:price-list"/>
+    <file name="musewpdisclosure.js" crc="4294234138" ref="phone>index:phone>how-to-order:phone>menu:phone>price-list:phone>photos:phone>testimonials:phone>contact:phone>suggestions"/>
+    <file name="musewpslideshow.js" crc="244150766" ref="phone>index:phone>photos:photos"/>
+    <file name="jquery.museoverlay.js" crc="3877667098" ref="phone>index:phone>photos:photos"/>
+    <file name="touchswipe.js" crc="3888935200" ref="phone>index:phone>photos:photos"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="phone>index:index:menu:how-to-order:testimonials:contact:photos:price-list"/>
+    <file name="html5shiv.js" crc="4241844378" ref="phone>index:phone>how-to-order:phone>menu:phone>price-list:phone>photos:phone>testimonials:phone>contact:phone>suggestions:index:menu:how-to-order:testimonials:contact:photos:price-list"/>
+    <file name="require.js" crc="4177726516" ref="phone>index:phone>how-to-order:phone>menu:phone>price-list:phone>photos:phone>testimonials:phone>contact:phone>suggestions:index:menu:how-to-order:testimonials:contact:photos:price-list"/>
+    <file name="form_check.php" crc="4108222811" ref="phone>suggestions"/>
+    <file name="form_throttle.php" crc="503802655" ref="phone>suggestions"/>
+    <file name="form_process.php" crc="260214869" ref="phone>suggestions"/>
+    <file name="form-u8450.php" crc="4240399610" ref="phone>suggestions"/>
+    <file name="jquery.scrolleffects.js" crc="312044820" ref="index:menu:how-to-order:testimonials:photos:price-list"/>
+    <file name="form-u1207.php" crc="3991458454" ref="contact"/>
+    <file name="form-u5911.php" crc="424963046" ref="price-list"/>
+  </folder>
+  <folder name="images">
+    <file name="vp_logo.png" crc="501894592" seo="true" ref="phone>index:phone>how-to-order:phone>menu:phone>price-list:phone>photos:phone>testimonials:phone>contact:phone>suggestions:index:menu:how-to-order:testimonials:contact:photos:price-list">
+      <caption webpage="menu" alt=""/>
+      <caption webpage="menu" alt=""/>
+      <caption webpage="suggestions" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+      <caption webpage="price-list" alt=""/>
+      <caption webpage="price-list" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="photos" alt=""/>
+      <caption webpage="photos" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="how-to-order" alt=""/>
+      <caption webpage="how-to-order" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="phone>index:phone>photos:photos"/>
+    <file name="580b57fcd9996e24bc43c521.png" crc="3971267644" seo="true" ref="phone>index:phone>how-to-order:phone>menu:phone>price-list:phone>photos:phone>testimonials:phone>contact:phone>suggestions">
+      <caption webpage="menu" alt=""/>
+      <caption webpage="suggestions" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+      <caption webpage="price-list" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="photos" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="how-to-order" alt=""/>
+    </file>
+    <file name="1423881583_square-facebook-128.png" crc="4116332640" seo="true" ref="phone>index:phone>how-to-order:phone>menu:phone>price-list:phone>photos:phone>testimonials:phone>contact:phone>suggestions">
+      <caption webpage="menu" alt=""/>
+      <caption webpage="suggestions" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+      <caption webpage="price-list" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="photos" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="how-to-order" alt=""/>
+    </file>
+    <file name="headera.jpg" crc="4151291546" seo="true" ref="phone>index:testimonials">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="headerb.jpg" crc="332113967" seo="true" ref="phone>index:menu">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="headerd.jpg" crc="461794892" seo="true" ref="phone>index:photos">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="homeimage.jpg" crc="4125856906" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="166494569_502208767878883_4814790452266108469_n.jpg" crc="3938301123" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="174490841_513652060067887_4416074485698646549_n.jpg" crc="3790685726" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="home_image3.jpg" crc="452898002" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="loading.gif" crc="3815509949" ref="phone>index:phone>photos:photos"/>
+    <file name="leaves.png" crc="3986524811" seo="true" ref="phone>index:phone>how-to-order:phone>price-list:index:menu:how-to-order:price-list">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="menu" alt=""/>
+      <caption webpage="price-list" alt=""/>
+      <caption webpage="price-list" alt=""/>
+      <caption webpage="how-to-order" alt=""/>
+      <caption webpage="how-to-order" alt=""/>
+    </file>
+    <file name="glove.jpg" crc="86472836" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="fridge.jpg" crc="133385987" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="measure.jpg" crc="144238372" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="vikki.jpg" crc="3974940571" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="6002f8fa51c2ec00048c6c6b.png" crc="299948594" seo="true" ref="phone>how-to-order:how-to-order">
+      <caption webpage="how-to-order" alt=""/>
+      <caption webpage="how-to-order" alt=""/>
+    </file>
+    <file name="zelle-logo-no-tagline-rgb-purple.png" crc="69211849" seo="true" ref="phone>how-to-order:how-to-order">
+      <caption webpage="how-to-order" alt=""/>
+      <caption webpage="how-to-order" alt=""/>
+    </file>
+    <file name="cash.jpg" crc="4228668155" seo="true" ref="phone>how-to-order:how-to-order">
+      <caption webpage="how-to-order" alt=""/>
+      <caption webpage="how-to-order" alt=""/>
+    </file>
+    <file name="venmo.jpg" crc="4202206623" seo="true" ref="phone>how-to-order:how-to-order">
+      <caption webpage="how-to-order" alt=""/>
+      <caption webpage="how-to-order" alt=""/>
+    </file>
+    <file name="meal21.jpg" crc="3776189401" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="mael15.jpg" crc="4269403057" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal1.jpg" crc="4187037227" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal5.jpg" crc="214871856" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal6.jpg" crc="74857311" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal7.jpg" crc="4076766075" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal8.jpg" crc="31493337" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal9.jpg" crc="3801501653" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal10.jpg" crc="215669068" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal12.jpg" crc="3947661405" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal13.jpg" crc="133730067" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal14.jpg" crc="3807068567" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal16.jpg" crc="320902933" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal17.jpg" crc="4122932540" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal19.jpg" crc="4085657053" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal20.jpg" crc="449538122" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal22.jpg" crc="3807613105" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal23.jpg" crc="3979744679" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal24.jpg" crc="506607225" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal25.jpg" crc="393561575" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal26.jpg" crc="3841438565" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal28.jpg" crc="227720555" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal29.jpg" crc="3966293517" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal30.jpg" crc="456103775" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal31.jpg" crc="444757931" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal32.jpg" crc="458953555" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal33.jpg" crc="494558498" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal34.jpg" crc="4125712998" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal35.jpg" crc="209113141" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal36.jpg" crc="126201520" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal37.jpg" crc="4079390193" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal38.jpg" crc="3792570470" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal39.jpg" crc="64410537" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal40.jpg" crc="212006762" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal41.jpg" crc="99318534" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal42.jpg" crc="3934903959" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal21-crop-u7377.jpg" crc="4070097995" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="mael15-crop-u7345.jpg" crc="4072655854" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal1-crop-u7395.jpg" crc="3920377435" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal5-crop-u7371.jpg" crc="3938300990" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal6-crop-u7349.jpg" crc="78250128" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal7-crop-u7391.jpg" crc="3806434669" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal8-crop-u7367.jpg" crc="4021033999" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal9-crop-u7357.jpg" crc="408538320" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal10-crop-u7405.jpg" crc="133293694" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal12-crop-u7341.jpg" crc="438969540" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal13-crop-u7403.jpg" crc="139993040" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal14-crop-u7397.jpg" crc="3954724127" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal16-crop-u7379.jpg" crc="3960757277" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal17-crop-u7373.jpg" crc="531415627" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal19-crop-u7365.jpg" crc="156062525" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal20-crop-u7401.jpg" crc="3787072612" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal22-crop-u7381.jpg" crc="402228710" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal23-crop-u7385.jpg" crc="404347629" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal24-crop-u7343.jpg" crc="3840134027" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal25-crop-u7383.jpg" crc="4230156576" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal26-crop-u7335.jpg" crc="4135456532" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal28-crop-u7337.jpg" crc="3924966400" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal29-crop-u7389.jpg" crc="3973523222" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal30-crop-u7399.jpg" crc="341838979" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal31-crop-u7375.jpg" crc="3984238242" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal32-crop-u7393.jpg" crc="248129527" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal33-crop-u7347.jpg" crc="4153484815" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal34-crop-u7387.jpg" crc="3780973436" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal35-crop-u7339.jpg" crc="12385757" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal36-crop-u7369.jpg" crc="97316460" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal37-crop-u7363.jpg" crc="3917545265" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal38-crop-u7351.jpg" crc="201565168" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal39-crop-u7361.jpg" crc="530925278" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal40-crop-u7353.jpg" crc="3810119326" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal41-crop-u7355.jpg" crc="483065327" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal42-crop-u7359.jpg" crc="4025309609" seo="true" ref="phone>photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="facebook-photos.png" crc="4058422607" seo="true" ref="phone>photos:photos">
+      <caption webpage="photos" alt=""/>
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="insta-photos.png" crc="4171465704" seo="true" ref="phone>photos:photos">
+      <caption webpage="photos" alt=""/>
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="leaves_row.png" crc="228170228" seo="true" ref="phone>testimonials:phone>suggestions:index:testimonials">
+      <caption webpage="index" alt=""/>
+      <caption webpage="suggestions" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+    </file>
+    <file name="stars.jpg" crc="286468778" seo="true" ref="phone>testimonials:testimonials">
+      <caption webpage="testimonials" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+    </file>
+    <file name="dots.png" crc="156789535" ref="phone>testimonials:phone>suggestions:index:testimonials:contact">
+      <caption webpage="index" alt=""/>
+      <caption webpage="suggestions" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="vp_logo_big165x140.png" crc="275345961" seo="true" ref="phone>contact">
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="instagram-fb.png" crc="3850316438" seo="true" ref="index:menu:how-to-order:testimonials:contact:photos:price-list">
+      <caption webpage="menu" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+      <caption webpage="price-list" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="photos" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="how-to-order" alt=""/>
+    </file>
+    <file name="shadow1.png" crc="4138839848" seo="true" ref="index:menu:how-to-order:testimonials:contact:photos:price-list">
+      <caption webpage="menu" alt=""/>
+      <caption webpage="testimonials" alt=""/>
+      <caption webpage="price-list" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="photos" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="how-to-order" alt=""/>
+    </file>
+    <file name="home_2.jpg" crc="4059655469" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="homea.jpg" crc="367272083" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="homeback.jpg" crc="3882255528" ref="index:price-list">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="homeimage4.jpg" crc="359659765" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="back.jpg" crc="141994140" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="166494569_502208767878883_4814790452266108469_n2.jpg" crc="3938301123" ref="how-to-order">
+      <caption webpage="how-to-order" alt=""/>
+    </file>
+    <file name="homeback-u1204-fr.jpg" crc="4100062210" ref="contact"/>
+    <file name="vp_logo_big.png" crc="4218201232" seo="true" ref="contact">
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="meal32-crop-u3838.jpg" crc="73700955" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="mael15-crop-u2688.jpg" crc="206947842" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal1-crop-u3058.jpg" crc="59710475" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal5-crop-u3162.jpg" crc="3806860169" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal6-crop-u3188.jpg" crc="4197574357" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal7-crop-u3214.jpg" crc="3840620618" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal8-crop-u3240.jpg" crc="373329479" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal9-crop-u3266.jpg" crc="399641296" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal10-crop-u3292.jpg" crc="283892232" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal12-crop-u3344.jpg" crc="297140498" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal13-crop-u3370.jpg" crc="3871551383" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal14-crop-u3396.jpg" crc="20117509" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal16-crop-u3422.jpg" crc="4245634580" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal17-crop-u3448.jpg" crc="4155752228" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal19-crop-u3500.jpg" crc="3987351038" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal20-crop-u3526.jpg" crc="4184012172" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal21-crop-u3552.jpg" crc="529534148" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal22-crop-u3578.jpg" crc="11103852" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal23-crop-u3604.jpg" crc="4229493960" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal24-crop-u3630.jpg" crc="3807337671" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal25-crop-u3656.jpg" crc="4140081881" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal26-crop-u3682.jpg" crc="4130506068" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal28-crop-u3734.jpg" crc="3928934791" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal29-crop-u3760.jpg" crc="511228331" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal30-crop-u3786.jpg" crc="119675022" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal31-crop-u3812.jpg" crc="105270595" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal33-crop-u3864.jpg" crc="3793618969" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal34-crop-u3890.jpg" crc="3921957943" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal35-crop-u3916.jpg" crc="4078090432" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal36-crop-u3942.jpg" crc="122181502" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal37-crop-u3968.jpg" crc="4119875242" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal38-crop-u3994.jpg" crc="3987400272" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal39-crop-u4020.jpg" crc="504975251" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal40-crop-u4046.jpg" crc="435967827" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal41-crop-u4645.jpg" crc="230974519" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal42-crop-u4665.jpg" crc="3819862752" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal32-crop-u3846.jpg" crc="248129527" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="mael15-crop-u2693.jpg" crc="4072655854" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal1-crop-u3066.jpg" crc="3920377435" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal5-crop-u3170.jpg" crc="3938300990" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal6-crop-u3196.jpg" crc="78250128" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal7-crop-u3222.jpg" crc="3806434669" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal8-crop-u3248.jpg" crc="4021033999" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal9-crop-u3274.jpg" crc="408538320" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal10-crop-u3300.jpg" crc="133293694" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal12-crop-u3352.jpg" crc="438969540" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal13-crop-u3378.jpg" crc="139993040" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal14-crop-u3404.jpg" crc="3954724127" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal16-crop-u3430.jpg" crc="3960757277" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal17-crop-u3456.jpg" crc="531415627" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal19-crop-u3508.jpg" crc="156062525" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal20-crop-u3534.jpg" crc="3787072612" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal21-crop-u3560.jpg" crc="4070097995" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal22-crop-u3586.jpg" crc="402228710" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal23-crop-u3612.jpg" crc="404347629" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal24-crop-u3638.jpg" crc="3840134027" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal25-crop-u3664.jpg" crc="4230156576" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal26-crop-u3690.jpg" crc="4135456532" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal28-crop-u3742.jpg" crc="3924966400" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal29-crop-u3768.jpg" crc="392300943" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal30-crop-u3794.jpg" crc="341838979" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal31-crop-u3820.jpg" crc="3984238242" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal33-crop-u3872.jpg" crc="4153484815" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal34-crop-u3898.jpg" crc="3780973436" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal35-crop-u3924.jpg" crc="12385757" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal36-crop-u3950.jpg" crc="436401974" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal37-crop-u3976.jpg" crc="3917545265" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal38-crop-u4002.jpg" crc="201565168" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal39-crop-u4028.jpg" crc="530925278" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal40-crop-u4054.jpg" crc="3810119326" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal41-crop-u4651.jpg" crc="483065327" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="meal42-crop-u4671.jpg" crc="4025309609" seo="true" ref="photos">
+      <caption webpage="photos" alt=""/>
+    </file>
+    <file name="174490841_513652060067887_4416074485698646549_n2.jpg" crc="3790685726" ref="price-list">
+      <caption webpage="price-list" alt=""/>
+    </file>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="master_a-master.css" crc="4022199358" ref="phone>menu:phone>testimonials:phone>suggestions:phone>how-to-order:phone>price-list:phone>photos:phone>index:phone>contact"/>
+      <file name="menu.css" crc="4205980220" ref="phone>menu"/>
+      <file name="testimonials.css" crc="456778955" ref="phone>testimonials"/>
+      <file name="suggestions.css" crc="4043797902" ref="phone>suggestions"/>
+      <file name="how-to-order.css" crc="273250220" ref="phone>how-to-order"/>
+      <file name="price-list.css" crc="3840504280" ref="phone>price-list"/>
+      <file name="photos.css" crc="4246647562" ref="phone>photos"/>
+      <file name="index.css" crc="523037268" ref="phone>index"/>
+      <file name="contact.css" crc="4275183348" ref="phone>contact"/>
+    </folder>
+    <file name="index.html" crc="110972584" seo="true" mt="1620946120232" redirect="true"/>
+    <file name="how-to-order.html" crc="3803900817" seo="true" mt="1620680986682" redirect="true"/>
+    <file name="menu.html" crc="517089058" seo="true" mt="1620680986682" redirect="true"/>
+    <file name="price-list.html" crc="4130243194" seo="true" mt="1620946196262" redirect="true"/>
+    <file name="photos.html" crc="3792569949" seo="true" mt="1620680986682" redirect="true"/>
+    <file name="testimonials.html" crc="380632339" seo="true" mt="1620680986682" redirect="true"/>
+    <file name="contact.html" crc="3921321061" seo="true" mt="1620680986682" redirect="true"/>
+    <file name="suggestions.html" crc="221919414" seo="true" mt="1620681275973" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="452109859" seo="true" mt="1620945381637" redirect="true"/>
+  <file name="menu.html" crc="346189135" seo="true" mt="1620682741345" redirect="true"/>
+  <file name="how-to-order.html" crc="305605484" seo="true" mt="1620682741345" redirect="true"/>
+  <file name="testimonials.html" crc="4031855359" seo="true" mt="1620945853566" redirect="true"/>
+  <file name="contact.html" crc="458470682" seo="true" mt="1620682741345" redirect="true"/>
+  <file name="photos.html" crc="3959902240" seo="true" mt="1620945836900" redirect="true"/>
+  <file name="price-list.html" crc="527948231" seo="true" mt="1620945893914" redirect="true"/>
+</manifest>
