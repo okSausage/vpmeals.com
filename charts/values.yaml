@@ -1,0 +1,22 @@
+app:
+  name: vpmeals
+
+image:
+  repository: nginx
+  tag: stable
+  pullPolicy: IfNotPresent
+
+ingress:
+  enabled: true
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    host: vpmeals.com
+      # path: 
+      # backend:
+      #   serviceName: vpmeals
+      #   servicePort: 80
+
+service:
+  type: LoadBalancer
+#  name: vpmeals
+  port: 80
