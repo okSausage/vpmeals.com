@@ -1,39 +1,46 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ .Values.app.name }}
+  name: "{{ .Values.app.name }}"
+  namespace: "{{ .Values.namespace }}"
   labels:
-    app: {{ .Values.app.name }}
+    app: "{{ .Values.app.name }}"
 spec:
-  replicas: 1
+  replicas: {{ .Values.app.replicas}}
   selector:
     matchLabels:
-      app: {{ .Values.app.name }}
+      app: "{{ .Values.app.name }}"
   template:
     metadata:
       labels:
-        app: {{ .Values.app.name }}
+        app: "{{ .Values.app.name }}"
     spec:
       containers:
-        - name: {{ .Values.app.name }}
+        - name: "{{ .Values.app.name }}"
           image: nginx
-          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          imagePullPolicy: "{{ .Values.image.pullPolicy }}"
           ports:
           - containerPort: 80
           volumeMounts:
-            - name: {{ .Values.app.name }}
-              mountPath: {{ .Values.volumes.mountPath }}
+            # - name: {{ .Values.app.name }}
+            #   mountPath: {{ .Values.volumes.mountPath }}
+            - name: "{{ .Values.namespace }}-{{ .Values.app.name }}-www"
+              mountPath: /usr/share/nginx/html
       volumes:
-        - name: {{ .Values.app.name }}
+        # - name: {{ .Values.app.name }}
+        #   persistentVolumeClaim:
+        #     claimName: {{ .Values.app.name }}
+        - name: "{{ .Values.namespace }}-{{ .Values.app.name }}-www"
           persistentVolumeClaim:
-            claimName: {{ .Values.app.name }}
+            claimName: "{{ .Values.namespace }}-{{ .Values.app.name }}-www"
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ .Values.app.name }}
+  name: "{{ .Values.app.name }}"
+  namespace: "{{ .Values.namespace }}"
   labels:
-    app: {{ .Values.app.name }}
+    app: "{{ .Values.app.name }}"
 spec:
   type: {{ .Values.service.type }}
   ports:
@@ -41,13 +48,14 @@ spec:
       targetPort: 80
       protocol: TCP
   selector:
-    app: {{ .Values.app.name }}
+    app: "{{ .Values.app.name }}"
 ---
 {{- if .Values.ingress.enabled }}
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: {{ .Values.app.name }}
+  name: "{{ .Values.app.name }}"
+  namespace: "{{ .Values.namespace }}"
   annotations:
     kubernetes.io/ingress.class: nginx
     nginx.ingress.kubernetes.io/rewrite-target: /
@@ -60,7 +68,7 @@ spec:
             pathType: ImplementationSpecific
             backend:
               service:
-                name: {{ .Values.app.name }}
+                name: "{{ .Values.app.name }}"
                 port:
                   number: 80
     - host: www.vpmeals.com
@@ -70,33 +78,64 @@ spec:
             pathType: ImplementationSpecific
             backend:
               service:
-                name: {{ .Values.app.name }}
+                name: "{{ .Values.app.name }}"
                 port:
                   number: 80
+{{- end }}
 ---
-apiVersion: v1
-kind: PersistentVolumeClaim
-metadata:
-  name: {{ .Values.app.name }}
-spec:
-  accessModes:
-    - ReadWriteOnce
-  storageClassName: local-path
-  resources:
-    requests:
-      storage: 1Gi
+# apiVersion: v1
+# kind: PersistentVolumeClaim
+# metadata:
+#   name: {{ .Values.app.name }}
+#   namespace: {{ .Values.namespace }}
+# spec:
+#   accessModes:
+#     - ReadWriteOnce
+#   storageClassName: local-path
+#   resources:
+#     requests:
+#       storage: 1Gi
 ---
 apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
-  name: {{ .Values.app.name }}-certificate
+  name: "{{ .Values.app.name }}-certificate"
+  namespace: "{{ .Values.namespace }}"
 spec:
-  secretName: {{ .Values.app.name }}-certificate
+  secretName: "{{ .Values.app.name }}-certificate"
   dnsNames:
     - vpmeals.com
     - www.vpmeals.com
   issuerRef:
     name: letsencrypt-prod
     kind: ClusterIssuer
-{{- end }}
-
+---
+# wordpress uploads from NFS
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: "{{ .Values.namespace }}-{{ .Values.app.name }}-www"
+  namespace: "{{ .Values.namespace }}"
+spec:
+  storageClassName: nfs-client
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadOnlyMany
+  persistentVolumeReclaimPolicy: Retain
+  nfs:
+    server: nfs1
+    path: "/srv/{{ .Values.namespace }}-{{ .Values.app.name }}-www"
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: "{{ .Values.namespace }}-{{ .Values.app.name }}-www"
+  namespace: "{{ .Values.namespace }}"
+spec:
+  storageClassName: nfs-client
+  accessModes:
+    - ReadOnlyMany
+  resources:
+    requests:
+      storage: 1Gi

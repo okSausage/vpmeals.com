@@ -1,5 +1,8 @@
+namespace: vpmeals
+
 app:
   name: vpmeals
+  replicas: 3
 
 image:
   repository: nginx
